@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lets Chat</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">36ZMvJCUV7byZOcnKTOtLjQVzS0ghr0AmxeBdWoM</string>
+    <string name="back4app_client_key">Tpv014f31Z89QiiyrI1tONruebPSd61S279Jx8Eu</string>
+    <string name="login">Login</string>
+    <string name="action_logout">Logout</string>
+</resources>
