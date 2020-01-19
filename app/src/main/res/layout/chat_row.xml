@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
+    android:orientation="horizontal"
+     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <ImageView
-        android:id="@+id/ProfileLeft"
+        android:layout_height="64dp"
         android:layout_width="64dp"
-        android:layout_height="64dp"/>
+        android:id="@+id/ProfileLeft"/>
     <TextView
-        android:id="@+id/tvBody"
-        android:textSize="18sp"
-        android:padding="20dp"
-        android:lines="3"
-        android:text=""
+        android:layout_height="64dp"
         android:layout_width="match_parent"
-        android:layout_height="64dp"/>
+        android:id="@+id/tvBody"
+        android:layout_marginRight="64dp"
+        android:text=""
+        android:lines="3"
+        android:padding="20dp"
+        android:textSize="18sp"/>
     <ImageView
-        android:id="@+id/ProfileRight"
-        android:layout_marginLeft="-64dp"
+        android:layout_height="64dp"
         android:layout_width="64dp"
-        android:layout_height="64dp"/>
-
+        android:id="@+id/ProfileRight"
+        android:layout_marginLeft="-64dp"/>
 </LinearLayout>

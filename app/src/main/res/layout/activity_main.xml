@@ -6,13 +6,15 @@
     android:layout_height="match_parent"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
+
     <ImageView
         android:id="@+id/logoId"
-        android:layout_centerHorizontal="true"
         android:layout_width="250dp"
         android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="12dp"
-        android:src="@drawable/chat"/>
+        android:contentDescription="@string/todo"
+        android:src="@drawable/chat" />
 
     <com.dd.processbutton.FlatButton
         android:id="@+id/loginButton"
@@ -21,6 +23,7 @@
         android:text="@string/login"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
+        android:layout_below="@id/logoId"
 
         android:textColor="@android:color/white"
         custom:pb_colorNormal="@android:color/holo_blue_light"
