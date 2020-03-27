@@ -12,7 +12,7 @@ import com.parse.ParseObject;
 import model.Message;
 
 public class ChattApplication extends Application {
-    public static final String APP_KEY_ID = "36ZMvJCUV7byZOcnKTOtLjQVzS0ghr0AmxeBdWoM";
+    public static final String APP_KEY_ID = "g52JNeNg35fbaBLrqKFkYxiEym6QVEkZXX77L4LZ";
     public static final String APP_CLIENT_ID = "Tpv014f31Z89QiiyrI1tONruebPSd61S279Jx8Eu";
 
     @Override
